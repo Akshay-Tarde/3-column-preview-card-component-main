@@ -2,19 +2,52 @@
     box-sizing: border-box;
 }
 
-/* font-family: 'Big Shoulders Display', cursive; */
 
 /* TYPOGRAPHY */
 body {
     margin: 0;
     font-size: 1rem;
     color: hsla(0, 0%, 100%, 0.75);
-    background-color: hsl(0, 0%, 95%);
     font-family: 'Lexend Deca', sans-serif;
 }
 
+h2 {
+    font-family: 'Big Shoulders Display', cursive;
+    margin-top: 0;
+    font-weight: 700;
+    color: hsl(0, 0%, 95%);
+    text-transform: uppercase;
+}
+
+.section-svg {
+    margin-bottom: 1em;
+}
+
+
 /* LAYOUT */
 
-.section {
+.container {
     width: 375px;
+    margin: 0 auto;
+}
+
+.section {
+    min-height: 30vh;
+    padding: 2em 4em;
+}
+
+.sedan {
+    background-color: hsl(31, 77%, 52%);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.suv {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.luxury {
+    background-color: hsl(179, 100%, 13%);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
