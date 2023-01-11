@@ -15,12 +15,19 @@ h2 {
     font-family: 'Big Shoulders Display', cursive;
     margin-top: 0;
     font-weight: 700;
+    font-size: 2rem;
     color: hsl(0, 0%, 95%);
     text-transform: uppercase;
 }
 
 .section-svg {
-    margin: 1.5em 0;
+    margin-bottom: 1.5em;
+}
+
+@media (min-width:800px) {
+    .section-svg {
+        margin: 1.5em 0;
+    }
 }
 
 
@@ -63,21 +70,44 @@ h2 {
     margin-top: .5em;
 }
 
+.btn:focus,
+.btn:hover {
+    border: 2px solid hsl(0, 0%, 95%);
+}
+
 .btn-sedan {
     color: hsl(31, 77%, 52%);
+}
+
+.btn-sedan:focus,
+.btn-sedan:hover {
+    background-color: hsl(31, 77%, 52%);
+    color: hsl(0, 0%, 95%);
 }
 
 .btn-suv {
     color: hsl(184, 100%, 22%);
 }
 
+.btn-suv:focus,
+.btn-suv:hover {
+    background-color: hsl(184, 100%, 22%);
+    color: hsl(0, 0%, 95%);
+}
+
 .btn-luxury {
     color: hsl(179, 100%, 13%);
 }
 
+.btn-luxury:focus,
+.btn-luxury:hover {
+    background-color: hsl(179, 100%, 13%);
+    color: hsl(0, 0%, 95%);
+}
+
 /* MEDIA QUERIES */
 
-@media (min-width:1050px) {
+@media (min-width:800px) {
 
     body {
         display: flex;
