@@ -51,3 +51,26 @@ h2 {
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
 }
+
+/* Buttons */
+
+.btn {
+    display: inline-block;
+    background-color: hsl(0, 0%, 95%);
+    padding: .6em 2em;
+    border-radius: 150px;
+    text-decoration: none;
+    margin: .5em 0;
+}
+
+.btn-sedan {
+    color: hsl(31, 77%, 52%);
+}
+
+.btn-suv {
+    color: hsl(184, 100%, 22%);
+}
+
+.btn-luxury {
+    color: hsl(179, 100%, 13%);
+}
