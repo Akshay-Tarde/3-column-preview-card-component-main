@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [FrontendMentor URL](https://www.frontendmentor.io/solutions/3column-preview-card-component-QcqW5NEA4x)
+- Live Site URL: [3-column-preview-card](https://3-column-preview-card-component-amt.netlify.app/)
 
 ## My process
 I approached this challenge as a mobile first design. I used flexbox to make it responsive.
