@@ -132,6 +132,8 @@ h2 {
         min-height: 60vh;
         min-width: 200px;
         padding: 1em 2.2em;
+        display: grid;
+        /* grid-template-rows: .5fr .5fr 1fr 1em auto; */
     }
 
     .sedan {
@@ -144,6 +146,8 @@ h2 {
     .btn {
         margin-top: 4em;
         margin-bottom: 1.5em;
+        align-self: end;
+        justify-self: start;
     }
 
     /* .suv {
